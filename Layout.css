@@ -1,0 +1,164 @@
+
+
+body{
+	font-family: "Lucida Console" , Monaco, monospace;
+	background-color: #2F4F4F;
+	margin: 0;
+}
+
+/* things to work on:
+-dual layout
+-adding in javaScript games
+ -making changes to javaScript game
+-adding php to forms
+ -finding a color scheme
+-name of website
+-contact form + email link simply for presentation
+-COUNTER
+ -creating a dropdown menu using unordered and ordered lists
+ -add three hours 10/6
+*/
+
+
+.site-header {
+	
+	background: #7d497b;
+	color: #fff;
+	padding: 20px 5%;
+	
+}
+
+.site-header h1{
+	
+	margin: 0;
+	float: left;
+	font-size: 20px;
+	
+}
+
+.navMenu ul{
+	
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+.contactLink{
+	
+	padding: 40px, 20px;
+	
+}
+.navMenu ul li{
+	
+	display: inline;
+	
+}
+
+.navMenu ul li a{
+	
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+a{
+	
+	color: #DA70D6;
+}
+
+a:hover{
+	
+	color: white;
+	
+}
+
+.navMenu ul li a:hover{
+	
+	color: #000;
+}
+
+.billboard{
+	
+	background: #483D8B;
+	padding: 40px;
+	text-align: center;
+	
+}
+
+.billboard h2{
+	
+	margin-top: 0; 
+	
+	
+}
+
+.paragraph{
+	
+	background-color: #9370DB;
+	text-align: center;
+	padding: 40px;
+	margin-top: 0;
+	/*float: left;*/
+	
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+	text-align: left;
+    margin: .5;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	max-width: 100%;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+

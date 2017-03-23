@@ -1,0 +1,50 @@
+<html>
+<head>
+<link rel = "icon" href = "icon.png">
+<title>Victoria |Home</title>
+	<link rel = "stylesheet" href = "layout.css">
+	
+</head>
+<body id = "top" text = "#fff" >
+
+<div class = "site-header">
+<h1>Welcome To My Website</h1>
+</div>
+<ul class = "topnav" id = "myTopnav">
+	<li><a href = "home.html" target = "">Home</a></li>
+	<li><a href = "about.html" target = "">About</a></li>
+	<li><a href = "games.html" target = "">Games</a></li>
+	<li><a href = "contact.html" target = "">Contact</a></li>
+	<li><a href = "portfolio.html" target = "">Portfolio</a></li>
+	<li class = "icon">
+		<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+	</li>
+</ul>	
+	<script type="text/javascript">
+	function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className == "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    }
+	
+	var x = 0;
+	function myCounter(){
+	echo x++;
+}
+	</script>
+<div class = "billboard">
+	<h2>Home</h2>
+</div>	
+	<?php
+    include ("counter.php")
+    ?>
+	
+	<p onmouseover = "displayCount()" &#9776>
+	</p>
+	
+<a href = "#top" color = "green" >Back to Top</a>	
+</body>
+</html>

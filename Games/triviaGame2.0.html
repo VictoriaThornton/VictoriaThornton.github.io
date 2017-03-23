@@ -1,33 +1,34 @@
-<html>	
-	<head>
-			<link rel = "stylesheet" href = "fullNav.css">
-			<script type="text/javascript" src="test.js"></script>
-			<link rel = "stylesheet" href = "Layout.css">
-	</head>
+<html>
+<head>
+<link rel="stylesheet" href="fullNav.css">
+<script type="text/javascript" src="test.js"></script>
+<link rel="stylesheet" href="Layout.css">
+</head>
 <body>
- <div class = "site-header">
- </div>
- 
- <div class = "billboard">
-	<h2>Trivia Game</h2>
-        <br />
-  </p>      
-		Asking question <span id="NumberAsked">1</span> of 10 with <span id="NumberCorrect">0</span> answers correct</p>
+	<div class="site-header"></div>
 
-        <span id="TriviaQuestion">???</span>
-   </p>
-    
-	<p>
-        &nbsp;
-        <input id="RadioTrue" type="radio" value="true" name="answer" checked="checked" /> True
-        &nbsp;&nbsp;&nbsp;
-        <input id="RadioFalse" type="radio" value="false" name="answer" /> False
-    </p>
-    <p>
-        <input id="ButtonContinue" onclick="checkAnswer();" type="button" value="continue" />
-    </p>
- 
-    <script type="text/javascript">
+	<div class="billboard">
+		<h2>Trivia Game</h2>
+		<br />
+		</p>
+		Asking question <span id="NumberAsked">1</span> of 10 with <span
+			id="NumberCorrect">0</span> answers correct
+		</p>
+
+		<span id="TriviaQuestion">???</span>
+		</p>
+
+		<p>
+			&nbsp; <input id="RadioTrue" type="radio" value="true" name="answer"
+				checked="checked" /> True &nbsp;&nbsp;&nbsp; <input id="RadioFalse"
+				type="radio" value="false" name="answer" /> False
+		</p>
+		<p>
+			<input id="ButtonContinue" onclick="checkAnswer();" type="button"
+				value="continue" />
+		</p>
+
+		<script type="text/javascript">
         // Array of trivia data
         var TriviaData = new Array(10)
         createTwoDimensionalArray(3);
@@ -131,4 +132,4 @@
  
     </script>
 </body>
-	</html>
+</html>

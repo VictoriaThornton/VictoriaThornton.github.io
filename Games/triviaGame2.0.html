@@ -1,20 +1,17 @@
 <html>
 <head>
-<link rel="stylesheet" href="fullNav.css">
-<script type="text/javascript" src="test.js"></script>
-<link rel="stylesheet" href="Layout.css">
+<link type="text/css" rel="stylesheet" href="Layout.css">
 </head>
-<body>
+<body >
 	<div class="site-header"></div>
-
 	<div class="billboard">
 		<h2>Trivia Game</h2>
 		<br />
-		</p>
+<p>
 		Asking question <span id="NumberAsked">1</span> of 10 with <span
 			id="NumberCorrect">0</span> answers correct
 		</p>
-
+<p>
 		<span id="TriviaQuestion">???</span>
 		</p>
 
@@ -124,12 +121,13 @@
             else {
                 alert("Quiz complete! You got " + totalCorrect + " correct out of 10.");
                 document.getElementById("ButtonContinue").disabled = true;
+                document.getElementById("body").innerHTML.style.color = "green";
             }
             // update totals
             document.getElementById("NumberAsked").innerHTML = questionsAsked;
             document.getElementById("NumberCorrect").innerHTML = totalCorrect;
         }
- 
     </script>
+   </div>
 </body>
 </html>

@@ -4,6 +4,7 @@ body{
 	font-family: "Lucida Console" , Monaco, monospace;
 	background-color: #2F4F4F;
 	margin: 0;
+  margin-bottom: 120px;
 }
 
 /* things to work on:
@@ -160,5 +161,35 @@ ul.topnav li.icon {display: none;}
     display: block;
     text-align: left;
   }
+}
+
+button{
+	
+  color: #6496c8;
+  background: rgba(255,255,255,255);
+  border: solid 3px #7d497b;
+  height: 100px; 
+  width: 250px;
+  
+}
+button:hover,{
+  background-color: #346392;
+  text-shadow: -1px 1px #27496d;
+}
+
+button:active,{
+  background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+
 }
 

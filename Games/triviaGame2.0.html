@@ -1,8 +1,10 @@
 <html>
 <head>
-<link type="text/css" rel="stylesheet" href="Layout.css">
+<link rel = "icon" href = ../icon.png>
+<link rel = "stylesheet" type = "text/css" href = "../Layout.css">
+<title>TRIVIA GAME</title>
 </head>
-<body >
+<body>
 	<div class="site-header"></div>
 	<div class="billboard">
 		<h2>Trivia Game</h2>
@@ -95,6 +97,7 @@
             if (TriviaData[currentQuestion][1] == myAnswer) {
                 // answer correct
                 totalCorrect = totalCorrect + 1;
+                document.getElementById("body").innerHTML.style.backgroundColor("green");
             }
         }
  
@@ -121,7 +124,7 @@
             else {
                 alert("Quiz complete! You got " + totalCorrect + " correct out of 10.");
                 document.getElementById("ButtonContinue").disabled = true;
-                document.getElementById("body").innerHTML.style.color = "green";
+                //document.getElementById("body").innerHTML.style.color = "green";
             }
             // update totals
             document.getElementById("NumberAsked").innerHTML = questionsAsked;

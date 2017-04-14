@@ -2,10 +2,11 @@
 <head>
 <link rel="icon" href="icon.png">
 <title>Victoria |Home</title>
+<script src = "index.js"></script>
 <link type="text/css" rel="stylesheet" href="Layout.css">
 
 </head>
-<body id="top" text="#fff">
+<body id="top" text="#fff" onload = "incrementCounter();"'>
 
 	<div class="site-header">
 		<h1>Welcome To My Website</h1>
@@ -34,13 +35,46 @@
 	echo x++;
 }
 	</script>
+	
+	<script>
+	var userCount = 0;	
+	function incrementCounter(){
+			userCount++;
+			document.getElementById("NumberOfVisitors").innerHTML =  userCount;
+		}
+	</script>
 	<div class="billboard">
 		<h2>Home</h2>
 	</div>
+	<br />
+	<img src = "webpageBanner.png"; alt = "webpageBanner"; class = "webpageBanner">
+	
+	
+			<div class = mainPage>
+			<!-- Look at invalid location warnings -->
+			<!-- add at least one more image to slideshow-->
+<br /><br />			
+			<li id = "pictures" ><!--width = "70%" > -->
+			<ul class = "picture"><img src = "Images\ComputerScienceCloud.png" height = "300   px"alt = "1"></ul>
+			<ul class = "picture"><img src = "icon.png" height = "300 px"></ulalt = "2"></ul>
+			<ul class = "picture"><img src = "Images\2016-09-18 (2).png" height = "300 px"alt = "3"></ul>
+			<ul class = "picture"><img src = "Images\blockGame.png" height = "300 px"alt = "4"></ul>
+			<ul class = "picture"><img src = "Images\blockTutorialPicture.png" height = "300 px" alt = "5"></ul>
+			<ul class = "picture"><img src = "Images\eclipseCapture.png" height = "300 px"alt = "6"></ul>
+			<ul class = "picture"><img src = "Images\Octocat.jpg" height = "300 px"alt = "7"></ul>
+			<ul class = "picture"><img src = "Images\triviaGame.png" height = "300 px"alt = "8"></ul>
+           	<ul class = "picture"><img height="300 px" src="Images\triviaTutorialPicture.png" alt = "9"></ul>
+		   </li>
+		</div>
+	
+	
 	<?php
     include ("counter.php")
     ?>
-
+<p>
+	<!--  Visitors So Far <span id="NumberOfVisitors">1</span>-->
+</p>
+<p>
 <br />
 <br />
 <br />
@@ -84,6 +118,7 @@
 <br />
 <br />
 <br />
-	<div class = "footer"><p>THIS IS THE FOOTER</p></div>
+	<div class = "footer"><p><a href = "About.html" style = "text-decoration: none; color: #483D8B";>Learn More About the Site</a></p>
+	<p><a href = "Contact.html" style = "text-decoration: none; color: #483D8B";>Contact Me</a></p></div>
 </body>
 </html>

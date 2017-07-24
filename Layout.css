@@ -7,19 +7,6 @@ body{
   margin-bottom: 120px;
 }
 
-/* things to work on:
--dual layout
--adding in javaScript games
- -making changes to javaScript game
--adding php to forms
- -finding a color scheme
--name of website
--contact form + email link simply for presentation
--COUNTER
- -creating a dropdown menu using unordered and ordered lists
- -add three hours 10/6
-*/
-
 .topNavBackgroundVersion{
 	
 	background-image: url("..\Images\backgroundImage.jpg");
@@ -78,6 +65,12 @@ a{
 a:hover{
 	
 	color: white;
+	
+}
+
+.card a:hover{
+	
+	color: green;
 	
 }
 
@@ -250,11 +243,18 @@ button:active,{
 		z-index: 2;
 	}
 	
-	.card {
-    max-width: 50%;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+.card {
+    max-width: 75%;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-	float: left;
+	background-color: white;
+    color: black;
+    padding: 20;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 .card:hover {
@@ -263,5 +263,14 @@ button:active,{
 
 .container {
     padding: 2px 16px;
+}
+
+
+/* if the screen is mobile sized
+	change the navMenu and icons
+ */
+@media screen and (max-width: 768px){
+    
+    
 }
 

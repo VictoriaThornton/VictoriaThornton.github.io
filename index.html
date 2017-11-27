@@ -1,105 +1,148 @@
 <html>
-<head>
-<link rel="icon" href="icon.png">
+<!--  <head>
+<link rel = "icon" href = "icon.png">
 <title>Victoria |Home</title>
-<script src = "index.js"></script>
-<link type="text/css" rel="stylesheet" href="Layout.css">
-
+	<link type = "text/css" rel = "stylesheet" href = "Layout.css">
+	
 </head>
-<body id="top" text="#fff" onload = "incrementCounter();"'>
+<body id = "top" text = "#fff" >
 
-	<div class="site-header">
-		<h1>Welcome To My Website</h1>
-	</div>
-	<ul class="topnav" id="myTopnav">
-		<li><a href="index.html" target="">Home</a></li>
-		<li><a href="About/index.html" target="">About</a></li>
-		<li><a href="Games/index.html" target="">Games</a></li>
-		<li><a href="Contact/index.html" target="">Contact</a></li>
-		<li><a href="Portfolio/index.html" target="">Portfolio</a></li>
-		<li class="icon"><a href="javascript:void(0);"
-			onclick="myFunction()">&#9776;</a></li>
-	</ul>
+<div class = "site-header">
+<h1>Welcome To My Website</h1>
+</div>
+<ul class = "topnav" id = "myTopnav">
+	<li><a href = "home.html" target = "">Home</a></li>
+	<li><a href = "about.html" target = "">About</a></li>
+	<li><a href = "games.html" target = "">Games</a></li>
+	<li><a href = "contact.html" target = "">Contact</a></li>
+	<li><a href = "portfolio.html" target = "">Portfolio</a></li>
+	<li class = "icon">
+		<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+	</li>
+</ul>	
 	<script type="text/javascript">
+	function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className == "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    }
+	
+	var x = 0;
+	function myCounter(){
+	echo x++;
+}
 	</script>
-
-	<div class="billboard">
-		<h2>Home</h2>
-	</div>
-	<br />
-	<img src = "webpageBanner.png"; alt = "webpageBanner"; class = "webpageBanner">
-	
-	
-			<div class = mainPage>
-			<!-- Look at invalid location warnings -->
-			<!-- add at least one more image to slideshow-->
-<br /><br />			
-			<li id = "pictures" ><!--width = "70%" > -->
-			<ul class = "picture"><img src = "Images\ComputerScienceCloud.png" height = "300   px"alt = "1"></ul>
-			<ul class = "picture"><img src = "icon.png" height = "300 px"></ul alt = "2"></ul>
-			<ul class = "picture"><img src = "Images\2016-09-18 (2).png" height = "300 px"alt = "3"></ul>
-			<ul class = "picture"><img src = "Images\blockGame.PNG" height = "300 px"alt = "4"></ul>
-			<ul class = "picture"><img src = "Images\blockTutorialPicture.PNG" height = "300 px" alt = "5"></ul>
-			<ul class = "picture"><img src = "Images\eclipseCapture.PNG" height = "300 px"alt = "6"></ul>
-			<ul class = "picture"><img src = "Images\Octocat.jpg" height = "300 px"alt = "7"></ul>
-			<ul class = "picture"><img src = "Images\triviaGame.png" height = "300 px"alt = "8"></ul>
-           	<ul class = "picture"><img height="300 px" src="Images\triviaTutorialPicture.png" alt = "9"></ul>
-           	<ul class = "picture"><img height="300 px" src="Images\2016-09-18 (1).png" alt = "10"></ul>           	
-		   </li>
-		</div>
-	
-	
+<div class = "billboard">
+	<h2>Home</h2>
+</div>	
 	<?php
     include ("counter.php")
     ?>
-<p>
-	<!--  Visitors So Far <span id="NumberOfVisitors">1</span>-->
-</p>
-<p>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-	<p onmouseover="displayCount()" &#9776></p>
-
-	<a href="#top" color="green">Back to Top</a>
-<br />
-<br />
-<br />
-	<div class = "footer"><p><a href = "About.html" style = "text-decoration: none; color: #483D8B";>Learn More About the Site</a></p>
-	<p><a href = "Contact.html" style = "text-decoration: none; color: #483D8B";>Contact Me</a></p></div>
+	
+	<p onmouseover = "displayCount()" &#9776>
+	</p>
+	
+<a href = "#top" color = "green" >Back to Top</a>	
 </body>
+-->
+<head>
+<meta charset="ISO-8859-1">
+<title>Coming Soon...</title>
+</head>
+<body>
+
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Garamond, sans-serif;
+}
+
+.bgimg {
+    background-color: #733380;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+   <!--   <p ><a href = ".\Website2.0.html"><img src = "Images/icon.png" style = "width: 10%"/></a></p>-->
+    
+  </div>
+  <div class="middle">
+    <h1>Website Updates Coming Soon!</h1>
+    <hr>
+    <p id="demo" style="font-size:30px"></p>
+  </div>
+  <div class="bottomleft">
+    <p></p>
+  </div>
+</div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 31, 2017 15:37:25").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+
+
 </html>

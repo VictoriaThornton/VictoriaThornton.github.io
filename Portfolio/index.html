@@ -8,34 +8,178 @@
 <body text="#fff">
 
 	<div class="site-header">
-		<h1>Welcome To My Website</h1>
+		<h1>Victoria Thornton</h1>
 	</div>
 
 	<!--<div class = "navMenu">-->
-	<!--PORTFOLIO-->
+	<!--PORTFOLIO
+			<li><a href="../Games/index.html" target="">Games</a></li>
+		<li><a href="../Contact/index.html" target="">Contact</a></li>
+-->
 	<ul class="topnav" id="myTopnav">
 		<li><a href="../index.html" target="">Home</a></li>
 		<li><a href="../About/index.html" target="">About</a></li>
-		<li><a href="../Games/index.html" target="">Games</a></li>
-		<li><a href="../Contact/index.html" target="">Contact</a></li>
 		<li><a href="index.html" target="">Portfolio</a></li>
 		<li class="icon"><a href="javascript:void(0);"
 			onclick="myFunction()">&#9776;</a></li>
 	</ul>
+
+	<style>
+			button.accordion {
+				background-color: #eee;
+				color: #444;
+				cursor: pointer;
+				padding: 18px;
+				width: 100%;
+				border: none;
+				text-align: left;
+				outline: none;
+				font-size: 15px;
+				transition: 0.4s;
+				font-family: "Lucida Console" , Monaco, monospace;
+				font-size: x-large;
+			}
+			
+			.rotate90 {
+						/* IE9 only-ms-transform: rotateX('90')*/
+						/*note: don't use rotate by axis (works in IE, but no0t Chrome) use generic rotate() instead)*/
+						-webkit-transform: rotate(90deg);
+						transform: rotate(90deg);
+					}
+			
+			
+			button.accordion.active, button.accordion:hover {
+				background-color: #987fc3; 
+				color: white;
+			}
+			
+			div.panel {
+				padding: 0 18px;
+				display: none;
+				background-color: white;
+			}
+			</style>
 	<!--</div>-->
 
 	<div class="billboard">
 		<h2>Portfolio</h2>
 	</div>
 
-	<div class="paragraph">
-		<p>Welcome to my portfolio page. Here are a few projects that I am
+	<div class="card">
+		<p>Welcome to my portfolio page. Here are a few projects that I have finished or are
 			currently working on. If you would like to see more of my projects,
-			please visit my github page using this link:</p>
+			please visit my github page using this link:
+			<a href="https://github.com/VictoriaThornton/" target="">My Code on
+				GitHub.com</a> </p>
 	</div>
 
-	<a href="https://github.com/VictoriaThornton/" target="">My Code on
-		GitHub.com</a>
+
+	<div class="card">
+<button class="accordion">AUTODESK MAYA</button>
+<div class="panel">
+ <p style = "color: black">In C-Term 2018, I took a course called AR205X or 3D Environmental Modelling. It was so much fun. Here, I'm going to display a few things that I did during my time in the class.</p>
+<p style = "color: black">Below is a video timelapse of me putting the final pieces together. At this point, we were nearing the end of the class, and I realized that I didn't have much video yet, so I started taking it, just so that I could document my progress and see what I'd done. At the beginning of the video, I'm putting together the library, creating a box, then adding the arch models, then adding the bookshelves, and at this time, I even decided to add in steps as well. After that, I began the UV mapping for everything, and I also made a UV map for the rug in the video as well. After I've UV mapped everything, I transferred the model to Ureal to see how it looked. After finding that some of the textures didn't transfer or look right in Unreal, I went back to Maya to edit them. I also redid the tower models for the outside of the castle, finding that the new one I'd made not only looked much better, but took me much less time to do. In the video, I also made a purple roof texture for the towers and library. I'm really proud of the texture, but I think it just didn't come out the way I envisioned it once I'd added it to the towers. I think it's because of the strange conical shape of the towers that made it come out this way. In the video, I worked for a while trying to make the texture look right. I think it looks great on the roof of the library though, since that surface if more of a flat plane. In the video, I also included myself creating a bridge for the front of the castle. I still remember the morning that I made that. After the bridge, I re-textured the books for the bookshelves because I created a paper texture for them. Even though you can only see it if you look up close, I'm still very proud of the paper texture for the books. I was so impressed with how great it came out. After that, I made two flat planes for the grass and water surrounding the castle, and I also added some simple tree models to the outside (Since we had to have foilage for this part of the assignment). I didn't like how that came out at all, but by the final project, the exterior was much improved. I wish I could have gotten video of that, but I couldn't because I did the final phase of the project (moving everything to Unreal) on one of the computers in the IMGD lab. I will put the Unreal screenshots below though. I had so much fun doing this project (although it was quite stressful sometimes, and I never really got the lighting the  way I wanted it in time), and when I presented my final project in class, I even got a complement from the professor (Roshanak Bigonah) on my models. I miss taking that class now, but I started on another project about a month or so ago. A smaller library. The progress pictures for that project are below. </p>
+<video width="30%; height: auto; float:right" controls muted><source src="../Images/artVideo.mp4" type="video/mp4">
+</video>
+<br />
+<button class="accordion">AR 205X Class Progress</button>
+    <div class="panel">
+        <p>
+                <img src = "../Images/castle/Sketch1.PNG" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/Sketch2.PNG" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/sketch1.jpg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/sketch2.jpg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/ao1.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/ao2.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/ao3.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/ao4.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/ao5.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/10.jpeg" style = "width: 20%; height: 20%">
+                <img src = "Images/castle/render1 - Copy.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render1.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render10.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render4 - Copy.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render5.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render6.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render6libraryAerialView(noRoof).jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render7 - Copy.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render7.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render8 - Copy.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render8.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/render9.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/test1.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/testRender2.jpeg" style = "width: 20%; height: 20%">
+                <img src = "../Images/castle/trees.jpeg" style = "width: 20%; height: 20%">
+        </p> 
+    </div>
+<br />
+<button class="accordion">LIBRARY (in progress)</button>
+    <div class="panel">
+        <p>
+                <img src = "../Images/smallRoom1.jpeg" style = "width: 20%; height: 20%"/>
+                <img src = "../Images/smallRoom2.jpeg" style = "width: 20%; height: 20%"/>
+        </p> 
+        
+    </div>
+
+
+    <button class="accordion">Blender</button>
+    <div class="panel">
+            <img src = "../Images/doughnuts1.png" style = "width: 20%; height: 20%">
+    </div>
+    </p>
+</div>
+
+<button class="accordion">RBE 1001</button>
+<div class="panel">
+<br />
+<a href = "https://www.dropbox.com/s/e054l59isoc5z7j/Team%2017%2C%20Final%20Project%20Part%203.pdf?dl=0" style = "color: green">Final Project Report</a>
+<br />
+<br />
+</div>
+
+<button class="accordion">GAMES (Unity)</button>
+<div class="panel">
+<button class="accordion">Food Chain (2018)</button>
+    <div class="panel">
+        <p style = "color: black">
+			Game made for the 2018 WPI Winter Hackathon
+		</p>
+		<p>	<video width="30%; height: auto; float:left" controls muted><source src="../Images/foodChain.mp4" type="video/mp4">
+		</p><br />
+			<br />
+			<p style = "color: black">See it's page on <a href = "https://devpost.com/software/food-chain" style = "color: green">Devpost</a> </p>
+		</p> 
+    </div>
+<br />
+<button class="accordion">Gear Game (2017)</button>
+    <div class="panel">
+        <p>
+			<p style = "color: black">Game made for the APCSP (AP Computer Science Principles) final project</p>
+			<video width="30%; height: auto; float:left" controls muted><source src="../Images/gearGame.mp4" type="video/mp4">
+        </p> 
+    </div>
+</div>
+
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script> 
+
 
 </body>
 </html>

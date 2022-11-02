@@ -1,129 +1,99 @@
 <html>
- <head>
-<link rel = "icon" href = "icon.png">
-<title>Victoria |Home</title>
-	<link type = "text/css" rel = "stylesheet" href = "Layout.css">
-<!-- 	
-</head>
-<body id = "top" text = "#fff" >
 
-<div class = "site-header">
-<h1>Welcome To My Website</h1>
-</div>
-<ul class = "topnav" id = "myTopnav">
-	<li><a href = "home.html" target = "">Home</a></li>
-	<li><a href = "about.html" target = "">About</a></li>
-	<li><a href = "games.html" target = "">Games</a></li>
-	<li><a href = "contact.html" target = "">Contact</a></li>
-	<li><a href = "portfolio.html" target = "">Portfolio</a></li>
-	<li class = "icon">
-		<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-	</li>
-</ul>	
-	<script type="text/javascript">
-	function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className == "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-    }
-	
-	var x = 0;
-	function myCounter(){
-	echo x++;
-}
-	</script>
-<div class = "billboard">
-	<h2>Home</h2>
-</div>	
-	<?php
-    include ("counter.php")
-    ?>
-	
-	<p onmouseover = "displayCount()" &#9776>
-	</p>
-	
-<a href = "#top" color = "green" >Back to Top</a>	
-</body>
--->
 <head>
-<meta charset="ISO-8859-1">
-<title>Coming Soon...</title>
-</head>
-<body>
+    <link rel = "icon" href = "icon.png">
 
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Garamond, sans-serif;
-}
-
-.bgimg {
-    background-color: #733380;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    color: white;
-    font-size: 25px;
-}
-
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-}
-
-.bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-}
-
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-hr {
-    margin: auto;
-    width: 40%;
-}
-
-a{
-    color: white;
-    text-decoration: none; 
-}
-a:hover{
-    text-decoration-line: underline;
-}
-</style>
-<body>
-
-<div class="bgimg">
-  <div class="topleft">
-   <!--   <p ><a href = ".\Website2.0.html"><img src = "Images/icon.png" style = "width: 10%"/></a></p>-->
+    <!--Set up Materialize.css  -->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    <!--Optimize site for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     
-  </div>
-  <div class="middle">
-    <h1>Victoria Thornton</h1>
-    <hr>
-    <p style="font-size:30px">
-        <a href = "Home/index.html" target = "">Home</a>
-        <a href = "About/index.html" target = "">About</a>
-<!-- <a href = "games.html" target = "">Games</a>-->       
-<!--<a href = "contact.html" target = "">Contact</a>-->      
-       <a href = "Portfolio/index.html" target = "">Portfolio</a></p>
-  </div>
-  <div class="bottomleft">
-    <p></p>
-  </div>
-</div>
+    <!-- Import Baloo 2 Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo 2">
+    
+    <title>Victoria |Home</title>
+    <link type = "text/css" rel = "stylesheet" href = "Layout.css">
+        
+</head>
 
-</html>
+<body>
+    
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            /* font-family: Garamond, sans-serif; */
+            font-family: "Baloo 2" , Monaco, monospace;
+        }
+        
+        .bgimg {
+            background-color: #733380;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            color: white;
+            font-size: 25px;
+        }
+        
+        .topleft {
+            position: absolute;
+            top: 0;
+            left: 16px;
+        }
+        
+        .bottomleft {
+            position: absolute;
+            bottom: 0;
+            left: 16px;
+        }
+        
+        .middle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        hr {
+            margin: auto;
+            width: 40%;
+        }
+        
+        a{
+            color: white;
+            text-decoration: none; 
+        }
+        a:hover{
+            text-decoration-line: underline;
+        }
+    </style>
+    
+    <body>
+        
+        <div class="bgimg">
+
+            <div class="middle">
+                <h1>Victoria Thornton</h1>
+                <hr>
+                <p style="font-size:30px">
+                    <a href = "index.html" target = "">Home</a>
+                    <a href = "About/index.html" target = "">About</a>
+                    <!-- <a href = "games.html" target = "">Games</a>-->       
+                    <!--<a href = "contact.html" target = "">Contact</a>-->      
+                    <a href = "Portfolio/index.html" target = "">Portfolio</a></p>
+                </div>
+                <div class="bottomleft">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+            
+            
+            <!--JavaScript at end of body for optimized loading-->
+            <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+        </body>
+        
+        </html>

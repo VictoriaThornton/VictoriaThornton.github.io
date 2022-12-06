@@ -1,241 +1,125 @@
 <html>
+    <head>
+        <link rel = "icon" href = "Images/icon.png">
 
-<head>
-    <link rel = "icon" href = "icon.png">
-    
-    <!--Set up Materialize.css  -->
-    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-    <!--Optimize site for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    
-    <!-- Import Baloo 2 Font-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo 2">
-    
-    <title>Victoria |Home</title>
-    <link type = "text/css" rel = "stylesheet" href = "Layout.css">
-    
-</head>
+        <!-- Milligram CSS -->
+        <link id = "theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+        <link type = "text/css" rel = "stylesheet" href = "main_layout.css">
+    </head>
 
-<body>
-    
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            /* font-family: Garamond, sans-serif; */
-            font-family: "Baloo 2" , Monaco, monospace;
-        }
+    <body class="bgimg gradient">
         
-        .bgimg {
-            background-color: #733380;
-            height: 100%;
-            background-position: center;
-            background-size: cover;
-            position: relative;
-            color: white;
-            font-size: 25px;
-        }
-        
-        .topleft {
-            position: absolute;
-            top: 0;
-            left: 16px;
-        }
-        
-        .bottomleft {
-            position: absolute;
-            bottom: 0;
-            left: 16px;
-        }
-        
-        .middle {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-        
-        hr {
-            margin: auto;
-            width: 40%;
-        }
-        
-        a{
-            color: white;
-            text-decoration: none; 
-        }
-        a:hover{
-            text-decoration-line: underline;
-        }
-    </style>
-    
-    <body>
-        <!-- HOME SECTION -->
-        <div class="bgimg">
-            
-            <div class="middle">
-                <h1>Victoria Thornton</h1>
-                <hr>
-                <p style="font-size:30px">
-                    <a href = "index.html" target = "">Home</a>
-                    <a href = "#about_section" target = "">About</a>
-                    <!-- <a href = "games.html" target = "">Games</a>-->       
-                    <!--<a href = "contact.html" target = "">Contact</a>-->      
-                    <a href = "#portfolio_section" target = "">Portfolio</a></p>
-                </div>
-                <div class="bottomleft">
-                    <p></p>
-                </div>
-            </div>
+        <hr style = "width: 50%; height: 15%; border-color: white"></hr>
+        <div  class = "card" style = "height: 65%; width: 95%">
+
+    <hr style = "width: 25%; height: 30%; border-color: white"></hr>
+
+        <!-- intro -->
+        <h1 style>
+            <div style = "text-align: center">Victoria Thornton</div>
+        </h1>
+
+        <!-- description -->
+        <h5>
+            <div style = "text-align: center;">Software Developer located in Phenix City, AL</div>
+        </h5>
+
+        <!-- Links -->
+        <div style = "text-align: center;">
+            <a class = "button" href = "#about_section" target = "">
+                About
+            </a>
+
+            <a class = "button" href = "#portfolio_section" target = "">
+                Portfolio
+            </a>
         </div>
-        
-        <!-- ABOUT SECTION -->
-        
-        <div id = "about_section" class="paragraph">
-            <h2>About</h2>
-        </div>
-        
-        <div class="card">
-            <p>Hi! Thanks for visiting my website. My name is Victoria Thornton and I am a recent Computer Science graduate from Worcester Polytechnic Institute (WPI). I am currently located in Phenix City, Alabama and looking to fill a Software Development/Engineering role. </p>
-            <p>To <b style = "color:#733380" >contact</b> me please email at: <a href = "mailto:victoriajthornton@gmail.com">victoriajthornton@gmail.com</a>. My resume and a portfolio of projects and previous work I have done can be found below.</p>
-        </div>
-        
-        <!-- PORTFOLIO SECTION -->
-        
-        <div id = "portfolio_section" class="billboard">
-            <h2>Portfolio</h2>
-        </div>
-        
-        <div class="card">
-            <p>Welcome to my portfolio page. Here are a few projects that I have finished or am
-                currently working on. If you would like to see more of my projects,
-                please visit my github page using this link:
-                <a href="https://github.com/VictoriaThornton/" target="">My Code on
-                    GitHub.com</a> </p>
-                </div>
-                
-                
-                <div class="card">
-                    <button class="accordion">AUTODESK MAYA</button>
-                    
-                    <br />
-                    <button class="accordion">AR 205X Class Progress</button>
-                    <div class="panel">
-                        <p>
-                            <img src = "../Images/castle/Sketch1.PNG" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/sketch1.jpg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/ao1.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/ao2.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/ao3.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/ao4.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/ao5.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/10.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render1 - Copy.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render1.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render10.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render4 - Copy.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render5.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render6.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render6libraryAerialView(noRoof).jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render7 - Copy.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render7.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render8 - Copy.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render8.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/render9.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/test1.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/testRender2.jpeg" style = "width: 20%; height: 20%">
-                            <img src = "../Images/castle/trees.jpeg" style = "width: 20%; height: 20%">
-                        </p> 
-                    </div>
-                    <br />
-                </p>
-                
-            </div>
-            
-            <button class="accordion">RBE 1001</button>
-            <div class="panel">
-                <br />
-                <a href = "https://www.dropbox.com/s/e054l59isoc5z7j/Team%2017%2C%20Final%20Project%20Part%203.pdf?dl=0" style = "color: green">Final Project Report</a>
-                <br />
-                <br />
-            </div>
-            
-            <button class="accordion">GAMES (Unity)</button>
-            <div class="panel">
-                <button class="accordion">Food Chain (2018)</button>
-                <div class="panel">
-                    <p style = "color: black">
-                        Game made for the 2018 WPI Winter Hackathon
-                    </p>
-                    <p>
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/umlFs6GSqm0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </p><br />
-                    <br />
-                    <p style = "color: black">See it's page on <a href = "https://devpost.com/software/food-chain" style = "color: green">Devpost</a> </p>
-                </p> 
-            </div>
-            <br />
-            <button class="accordion">Gear Game (2017)</button>
-            <div class="panel">
-                <p>
-                    <p style = "color: black">Game made for the APCSP (AP Computer Science Principles) final project</p>
-                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sHViBQGexSo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </p> 
-            </div>
-        </div>
-        
+
+        <a href = "https://github.com/victoriathornton">
+            <img style = "float: right; height: 33%; width: auto; padding-top: 100px" src = "Images/GitHub-Mark-64px.png" alt = "Github Link"> </img>
+            </a>
     </div>
-    
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        
-        for (i = 0; i < acc.length; i++) {
-            acc[i].onclick = function(){
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                } else {
-                    panel.style.display = "block";
-                }
-            }
-        }
-    </script> 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-</body>
 
+    <hr style = "width: 25%; height: 200px; border-color: white"></hr>
+
+
+        <!-- ABOUT SECTION -->
+
+            <div class = "row">
+                <div id = "about_section" class="column ">
+                    <h2 style = "text-align: center">About</h2>
+                </div>
+            </div>
+
+            <div class = "card">
+                <div class = "row">
+                    <div class = "column">
+                        <p>Hello! Thanks for visiting my website. My name is Victoria Thornton and I am a recent Computer Science graduate from Worcester Polytechnic Institute (WPI). I am currently located in Phenix City, Alabama and looking to fill a Software Development/Engineering role. </p>
+
+                        <p>To <b style = "color:#733380" >contact</b> me please email at: <a href = "mailto:victoriajthornton@gmail.com">victoriajthornton@gmail.com</a>. My resume as well as a portfolio of projects and previous work I have done can be found below.</p>
+
+                        <p>Hobbies:
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr style = "width: 25%; height: 10%; border-color: white"></hr>
+
+        <!-- PORTFOLIO SECTION -->
+        <div class = "row">
+            <div id = "portfolio_section" class="column ">
+                <h2 style = "text-align: center">Portfolio</h2>
+            </div>
+        </div>
+        
+        <div class = "card">
+            Work Experience: Chemical Stockroom at Worcester Polytechnic Institute
+            <span class="pln"><!-- Unordered list -->
+            </span><ul><span class="pln">
+              </span><li><span class="pln">Unordered list item 1</span></li><span class="pln">
+              </span><li><span class="pln">Unordered list item 2</span></li><span class="pln">
+            </span></ul><span class="pln">
+        </div>
+
+        <div class = "card">
+            Project: Autonomous String Tuning
+            <span class="pln"><!-- Unordered list -->
+            </span><ul><span class="pln">
+              </span><li><span class="pln">Unordered list item 1</span></li><span class="pln">
+              </span><li><span class="pln">Unordered list item 2</span></li><span class="pln">
+            </span></ul><span class="pln">
+        </div>
+
+
+        <div class = "card">
+            Project: Robotics
+            RBE 1001
+            RBE 2001 
+            + papers
+            <span class="pln"><!-- Unordered list -->
+            </span><ul><span class="pln">
+              </span><li><span class="pln">Unordered list item 1</span></li><span class="pln">
+              </span><li><span class="pln">Unordered list item 2</span></li><span class="pln">
+            </span></ul><span class="pln">
+        </div>
+
+        <div class = "card">
+            Project: Food Chain Hackathon 2018
+            <span class="pln"><!-- Unordered list -->
+            </span><ul><span class="pln">
+              </span><li><span class="pln">Unordered list item 1</span></li><span class="pln">
+              </span><li><span class="pln">Unordered list item 2</span></li><span class="pln">
+            </span></ul><span class="pln">
+        </div>
+
+        <div class = "card">
+            Languages:
+        </div>
+
+        <div class = "card">
+            Press:
+        </div>
+    </body>
 </html>

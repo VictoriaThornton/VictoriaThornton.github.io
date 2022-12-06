@@ -1,0 +1,143 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    /* font-family: Garamond, sans-serif; */
+    font-family: "Baloo 2" , Monaco, monospace;
+}
+
+.gradient{
+    background: #9D50BB;  /* fall back for old browsers */
+    background: -webkit-linear-gradient(to top, #9D50BB, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top,#9D50BB, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bgimg {
+    /* background-color: #733380; */
+    /* background-color: #7c4e97;  */
+    
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+a{
+    color: purple;
+    text-decoration: none; 
+}
+
+.front-page-link{
+    color: white; 
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
+
+
+
+
+body{
+	/* font-family: "Lucida Console" , Monaco, monospace; */
+	background-color: white;
+	margin: 0;
+  	margin-bottom: 120px;
+}
+
+/* .card a:hover{
+	
+	color: green;
+	
+} */
+
+/* .navMenu ul li a:hover{
+	
+	color: #000;
+} */
+
+/* Portfolio billboard */
+.billboard{
+	
+	background: #483D8B;
+	padding: 40px;
+	text-align: center;
+	
+}
+
+/* .billboard h2{
+	
+	margin-top: 0; 
+	
+	
+} */
+
+/* About billboard */
+.paragraph{
+	
+	background-color: #9370DB;
+	text-align: center;
+	padding: 40px;
+	margin-top: 0;
+	
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+  z-index: 5;
+}
+
+.card {
+    max-width: 75%;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	background-color: white;
+    color: black;
+    padding: 20;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+	/* rounded corners */
+	border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+

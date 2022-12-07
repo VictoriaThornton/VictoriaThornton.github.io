@@ -141,3 +141,10 @@ body{
     padding: 2px 16px;
 }
 
+
+.squareCard {
+    border-radius: 0; 
+    max-width: 95%; 
+    outline-style: solid; 
+    outline-width: 2px;
+}

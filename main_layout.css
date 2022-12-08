@@ -1,5 +1,4 @@
 body, html {
-    height: 100%;
     margin: 0;
     /* font-family: Garamond, sans-serif; */
     font-family: "Baloo 2" , Monaco, monospace;
@@ -7,8 +6,13 @@ body, html {
 
 .gradient{
     background: #9D50BB;  /* fall back for old browsers */
-    background: -webkit-linear-gradient(to top, #9D50BB, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top,#9D50BB, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background: -webkit-linear-gradient(to top, #882cab, #6E48AA, #882cab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top,#882cab, #6E48AA, #882cab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+/*    background: -webkit-linear-gradient(to top, #9D50BB, #6E48AA, #9D50BB);*/  /* Chrome 10-25, Safari 5.1-6 */
+/*    background: linear-gradient(to top,#9D50BB, #6E48AA, #9D50BB); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bgimg {
@@ -20,7 +24,7 @@ body, html {
     background-size: cover;
     position: relative;
     color: white;
-    font-size: 25px;
+    font-size: 17px;
 }
 
 .topleft {
@@ -147,4 +151,14 @@ body{
     max-width: 95%; 
     outline-style: solid; 
     outline-width: 2px;
+}
+
+img{
+    width: 43%; 
+    height: auto; 
+    display: inline;
+}
+
+hr{
+    opacity:0;
 }

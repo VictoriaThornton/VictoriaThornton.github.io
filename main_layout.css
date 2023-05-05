@@ -162,3 +162,13 @@ img{
 hr{
     opacity:0;
 }
+
+@media screen and (max-width: 800px) {
+    .githublogo {
+      display: none; 
+    }
+
+    .MQPInstrument{
+        display: none;
+    }
+  }
